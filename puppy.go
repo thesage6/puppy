@@ -1,15 +1,14 @@
-package puppy
+package  puppy
 
 import (
 	"github.com/thesage6/dog"
 )
 
-func Bark() string{
+func Bark() string {
 	return "Woof!"
-
 }
 
-func Sit() string{
+func Sit() string {
 	return "Okay, I'm sitting."
 }
 func BigDogBark() string {

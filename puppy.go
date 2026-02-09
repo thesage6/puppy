@@ -1,5 +1,6 @@
 package  puppy
 
+import ("github.com/thesage6/dog")
 
 func Bark() string {
 	return "Woof!"
@@ -11,4 +12,8 @@ func Sit() string {
 
 func Barks() string{
 	return "Woof! Woof! Woof!"
+}
+
+func BigBarks() string{
+	return
 }

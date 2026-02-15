@@ -16,9 +16,6 @@ func Barks() string{
 	return "Woof! Woof! Woof!"
 }
 
-func BigBarks() string{
-	return dog.WhenDogGrowsUp(Barks())
-}
 
 func BigBarks() string{
 	return dog.WhenDogGrowsUp(BigBarks())
